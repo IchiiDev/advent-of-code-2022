@@ -44,4 +44,5 @@ if __name__ == "__main__":
     elfs = parse_elfs(calories)
     calc = calc_calories(calories, elfs)
     calc.sort(reverse=True)
-    print(f"The result is {calc[0]} calories !")
+    total = calc[0] + calc[1] + calc[2]
+    print(f"The result is {calc[0]} calories ! Total from top three is {total}.")
