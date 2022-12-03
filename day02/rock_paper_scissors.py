@@ -87,5 +87,5 @@ if __name__ == "__main__":
     # results = calculate_points(values)
     # print(f"Le résultat total est {sum(results)} points !")
     results = get_best_encounters(values)
-    print(f"Le résultat total réel est {sum(results)} !")
+    print(f"The true total result is {sum(results)} !")
 
